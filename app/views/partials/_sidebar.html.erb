@@ -1,0 +1,18 @@
+<% if params[:controller] == 'about' %>
+	<div class="well">
+		<h3>Location Info</h3>
+		<ul>
+			<li>The BookStore</li>
+			<li>62 Truong Dinh, Hai Ba Trung, Ha Noi</li>
+			<li>Phone: 01668236508</li>
+			<li>Email: dinhquyf8@gmail.com</li>
+		</ul>
+	</div>
+<% end %>
+<% if params[:controller] == 'books' && params[:action] == 'index' || params[:action] == 'show'%>
+<div class="list-group">
+  <a href="#" class="list-group-item">Novel</a>
+  <a href="#" class="list-group-item">Drama</a>
+  
+</div>
+<% end %>
